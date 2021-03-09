@@ -1,7 +1,8 @@
-# Demo
+# Demo Project
 
-trying this out
+Wanted to try to build a project on Github. 
+It's just a basic page to get used to the Git commands. 
 
-## Subheader
+## Tools used
 
-To test things out only.
+HTML+CSS and a bit of Javascript. 
