@@ -53,6 +53,7 @@
                         <p>Lasts 720Hrs</p>
                     </div>
                  </div>
+                 
              </div>
          </div>
          <div class="controls">
@@ -93,9 +94,10 @@
             //      } else {
             //          console.log('scroll DOWN');
             //      }}); 
-            var scrollableElement = document.body; //document.getElementById('scrollableElement');
+            var scrollableElement = document.body; //
+            var newElement = document.getElementById('circle');
 
-                scrollableElement.addEventListener('wheel', checkScrollDirection);
+                newElement.addEventListener('wheel', checkScrollDirection);
 
                 function checkScrollDirection(event) {
                     if (checkScrollDirectionIsUp(event)) {
